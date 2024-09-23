@@ -1,0 +1,56 @@
+{
+	"name": "postcss-plugin-webp",
+	"version": "0.0.1",
+	"description": "PostCSS plugin for transforming CSS rules to use WebP images",
+	"types": "./dist/plugin.d.ts",
+	"main": "./dist/plugin.js",
+	"engines": {
+		"node": ">=20.x"
+	},
+	"exports": {
+		".": {
+			"require": "./dist/plugin.js",
+			"import": "./dist/plugin.mjs"
+		},
+		"./polyfill": "./dist/polyfill.js"
+	},
+	"scripts": {
+		"test": "jest --config=jest.config.ts --runInBand",
+		"build": "tsup --tsconfig tsconfig.json"
+	},
+	"keywords": [
+		"PostCSS",
+		"Plugin",
+		"WebP"
+	],
+	"author": {
+		"name": "Unknown-Robot",
+		"email": "mr.unknown.robot@gmail.com",
+		"url": "https://github.com/Unknown-Robot"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Unknown-Robot/postcss-plugin-webp.git"
+	},
+	"homepage": "https://github.com/Unknown-Robot/postcss-plugin-webp#readme",
+	"bugs": {
+		"url": "https://github.com/Unknown-Robot/postcss-plugin-webp/issues",
+		"email": "mr.unknown.robot@gmail.com"
+	},
+	"license": "MIT",
+	"peerDependencies": {
+		"postcss": "^8.4.45"
+	},
+	"devDependencies": {
+		"@types/jsdom": "^21.1.7",
+		"@types/node": "^22.5.4",
+		"jest": "^29.7.0",
+		"jest-environment-jsdom": "^29.7.0",
+		"postcss": "^8.4.45",
+		"terser": "^5.33.0",
+		"ts-jest": "^29.2.5",
+		"ts-node": "^10.9.2",
+		"tsup": "^8.3.0",
+		"typescript": "^5.6.2"
+	}
+}
