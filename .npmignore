@@ -1,0 +1,26 @@
+# NodeJS dependencies
+node_modules/
+
+# Typescript bundler
+tsup.config.ts
+
+# TypeScript config
+tsconfig.json
+
+# TypeScript cache
+*.tsbuildinfo
+
+# TypeScript src
+src/
+
+# Github config
+.github/
+
+# Jest coverage
+coverage/
+
+# Jest config
+jest.config.ts
+
+# Jest tests
+test/
