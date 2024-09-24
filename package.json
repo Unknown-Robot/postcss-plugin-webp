@@ -1,6 +1,6 @@
 {
 	"name": "postcss-plugin-webp",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "PostCSS plugin for transforming CSS rules to use WebP images",
 	"types": "./dist/plugin.d.ts",
 	"main": "./dist/plugin.js",
